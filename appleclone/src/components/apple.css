@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+.navbar{
+    position: sticky;
+    top:0px;
+    background-color: hsl(0, 0%, 7%,0.8);
+    color: white;
+    z-index: 5;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.navbar ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 12px;
+    color: rgb(211, 210, 210);
+}
+.navbar-2{
+    /* position: sticky; */
+    /* top:0px; */
+    background-color: hsla(0, 5%, 96%);
+    color: rgb(0, 0, 0);
+    z-index: 5;
+}
+
+.navbar-2 ul{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.navbar-2 ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+
+#screen{
+    width: 100%;
+    height: auto;
+}
+
+.content-container{
+    height: auto;
+    /* background-color: grey; */
+}
+
+.iphone15pro{
+    height: 600px;
+    width: 100vw;
+    background-image: url('https://www.apple.com/v/home/be/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_large_2x.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 50px;
+}
+
+.iphone15pro h1{
+    font-size: 50px;
+}
+.iphone15pro p{
+ font-size: 30px;
+ font-weight: 500;
+}
+
+.btn{
+    /* padding: 5px; */
+    font-size: 20px;
+    color: rgb(128, 128, 248);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-right: 20px;
+    margin-top: 15px;
+
+}
+
+.iphone15pro-2 {
+    height: 600px;
+    width: 100vw;
+    background-image: url('https://www.apple.com/v/home/be/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_large_2x.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+    margin-top: 10px;
+}
+
+.iphone15pro-2 h1{
+    font-size: 50px;
+}
+.iphone15pro-2 p{
+ font-size: 30px;
+ font-weight: 500;
+}
+
+.iwatch{
+    height: 600px;
+    width: 100vw;
+    background-image: url('https://www.apple.com/v/home/be/images/heroes/apple-watch-series-9/hero_apple_watch_series_9_order__d0fi9mb84dci_large_2x.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(248, 245, 245);
+    padding-top: 50px;
+    margin-top: 10px; 
+}
+
+.iwatch p{
+    font-size: 30px;
+    font-weight: 500;
+   }
+
+
+#iwatch-img{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.wrap-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* margin-top: 20px; */
+}
+.wrap-content{
+    background-image: url('https://www.apple.com/v/home/be/images/promos/ipad-pro/promo_ipadpro_refresh__evi9utuixwuq_medium_2x.jpg');
+    width: 48%;
+    height: 500px;
+    background-position: center center;
+    background-size: 100% 100%;
+    margin-top: 20px;
+    color: white;
+
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wrap-content h1{
+    color: white;
+    padding-top: 20px;
+}
+.wrap-content-2{
+    background-image: url('https://www.apple.com/v/home/be/images/promos/apple-vision-pro/promo_apple_vision_pro__f4v4zp0sum2y_medium_2x.jpg');
+    width: 48%;
+    height: 500px;
+    background-position: center center;
+    background-size: 100% 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.wrap-content-2 img,.wrap-content-5 img,.wrap-content-6 img{
+    width: 200px;
+    height: 45px;
+}
+
+.wrap-content-2 p {
+    font-size: 17px;
+    color: rgb(96, 93, 93);
+}
+
+.wrap-content-2 h3{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.wrap-content-3{
+    background-image: url('https://www.apple.com/v/home/be/images/promos/macbook-air-15/promo_macbook_air_15_midnight__3zojl1nanrme_medium_2x.jpg');
+    width: 48%;
+    height: 500px;
+    background-position: center center;
+    background-size: 100% 100%;
+    margin-top: 20px;
+    padding-top: 40px;
+
+}
+.wrap-content-4{
+    background-image: url('https://www.apple.com/v/home/be/images/promos/airpods-pro/promo_airpods_pro_order__d8xv36p4uwae_medium_2x.jpg');
+    width: 48%;
+    height: 500px;
+    background-position: center center;
+    background-size: 100% 100%;
+    margin-top: 20px;
+    color: white;
+    padding-top: 40px;
+
+}
+.wrap-content-5{
+    background-image: url('https://www.apple.com/v/home/be/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg');
+    width: 48%;
+    height: 500px;
+    background-position: center center;
+    background-size: 100% 100%;
+    margin-top: 20px;
+    padding-top: 40px;
+
+}
+
+
+.content-wrap-5{
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+}
+.wrap-content-6{
+    background-image: url('https://www.apple.com/v/home/be/images/promos/apple-card/tile__cauwwcyyn9hy_medium_2x.jpg');
+    width: 48%;
+    height: 500px;
+    background-position: center center;
+    background-size: 100% 100%;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+.slider-content{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+}
+
+.slider-content-box{
+    width: 95%;
+    margin: auto;
+    height: 550px;
+    /* border: 1px solid black; */
+    overflow-y:hidden ;
+    overflow-x: scroll;
+    display: flex;
+    position: relative;
+    scroll-behavior: smooth;
+    scroll-snap-align: center;
+}
+
+.slider-content-box img{
+    width: 90vw;
+    height: 100%;
+    /* border: 1px solid blue; */
+    margin: 0 20px;
+    object-position: center center;
+}
+
+.slider-content-box::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+.slide-btn a i{
+    width: 3px;
+    height: 3px;
+    /* background-color: red; */
+    color: grey;
+    margin: 15px;
+}
+
+.home-footer{
+    font-size: 13px;
+    /* margin-top: 30px; */
+    width: 75%;
+    margin:30px auto;
+    color: rgb(122, 121, 121);
+    text-align: left;
+}
+
+.horizontal-line{
+    width: 100%;
+    height: 1px ;
+    margin: 30px;
+    background-color: grey;
+}
+
+.btn-2{
+    font-size: 15px;
+    color: rgb(128, 128, 248);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    /* padding: 0px; */
+}
+
+.head-line p{
+    font-size: 15px;
+    background-color: white;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.head-line button{
+    padding-top: 3px;
+}
+.store-top{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    height: auto;
+    /* border: 1px solid red; */
+}
+
+.top-left{
+    width: 65%;
+    height: 300px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-left >div {
+    width: 80%;
+    font-size: 50px;
+    font-weight: 500;
+     /* font-family: 'Oswald'; */
+
+    
+}
+
+.top-left p{
+    color: grey;
+}
+
+.top-left span{
+    color: rgb(5, 4, 4);
+}
+
+.top-right{
+    width: 33%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-right i{
+    color: grey;
+}
+
+.store-content{
+    background-color: hsl(240, 11%, 96%);
+    width: 100%;
+    height: auto;
+    overflow-y: hidden;
+}
+
+.slider-content{
+    width: 100vw;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 20px;
+    /* overflow-y: scroll; */
+
+}
+
+.slider-content::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+
+.slide-imgs{
+    width: 15vw;
+    height: 150px;
+    
+    /* border: 1px solid black; */
+}
+
+.title{
+    width: 80%;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    /* border: 1px solid red; */
+    text-align: left;
+    color: grey;
+}
+
+.title span{
+    color: black;
+}
+
+.left-arrow{
+    position: absolute;
+    left: 0;
+}
+
+.content-slide{
+    width: 98%;
+    margin: 30px auto;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.content-slide-box{
+    width: 30vw;
+    height: 450px;
+    margin: 10px;
+    /* border: 1px solid red; */
+    border-radius:10px ;
+    box-shadow: 0px 4px 8px rgb(203, 201, 201);
+}
+.content-slide-box:hover{
+    transform: scale(1.01);
+    position: relative;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.content-slide::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+
+.content-slide-start{
+    /* height: 100%; */
+    width: 10vw;
+}
+
+.move-btn{
+    position: relative;
+    left: 0;;
+    top: 200px;
+    z-index: 7;
+}
+
+.move-btn:hover{
+    cursor: pointer;
+}
+
+.content-slide-box-2{
+    width: 40vw;
+    height: 450px;
+    margin: 10px;
+    /* border: 1px solid red; */
+    border-radius:10px ;
+    box-shadow: 0px 4px 8px rgb(203, 201, 201);
+}
+.content-slide-box-3{
+    width: 40vw;
+    height: 450px;
+    margin: 10px;
+    /* border: 1px solid red; */
+    border-radius:10px ;
+    /* box-shadow: 0px 4px 8px rgb(203, 201, 201); */
+}
+.content-slide-box-2:hover{
+    transform: scale(1.01);
+    position: relative;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.content-slide-box-vertical{
+    width: 40vw;
+    height: 210px;
+    margin: 15px;
+    /* border: 1px solid red; */
+    /* border: 1px solid red; */
+    background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-25-apps-202108?wid=960&hei=480&fmt=p-jpg&qlt=95&.v=1626223748000");
+    background-size: contain;
+    border-radius:10px ;
+    box-shadow: 0px 4px 8px rgb(203, 201, 201);
+}
+.content-slide-box-vertical-two{
+    width: 40vw;
+    height: 210px;
+    margin: 15px;
+    /* border: 1px solid red; */
+    /* border: 1px solid red; */
+    background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-25-genius-202108?wid=960&hei=480&fmt=p-jpg&qlt=95&.v=1626384443000");
+    background-size: 100% 100%;
+    border-radius:10px ;
+    box-shadow: 0px 4px 8px rgb(203, 201, 201);
+}
+
+.content-slide-box-vertical:hover, .content-slide-box-vertical-two:hover{
+    transform: scale(1.01);
+    position: relative;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.quick-link{
+    text-align: left;
+    margin-left: 10vw;
+}
+
+.quick-link-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.quick-link-container>div{
+    margin-left: 10vw;
+}
+
+.quick-link-btn{
+    padding:5px 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(229, 226, 226);
+    margin-right: 8px;
+    border-radius: 20px;
+}
+
+.quick-link-btn:hover{
+    background-color: rgb(231, 231, 231);
+}
